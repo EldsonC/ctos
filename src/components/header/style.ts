@@ -48,4 +48,42 @@ export const StyleHeader = styled.header `
             }
         }
     }
+
+    @media screen and (max-width: 500px) {
+        .container_header {
+            padding: 50px 0px;
+            width: 80%;
+
+            position: absolute;
+            top: 0;
+
+            display: flex;
+            justify-content: space-between;
+
+            .logo__home {
+                display: flex;
+                align-items: center;
+
+                span {
+                    display: none;
+                }
+            }
+
+            .nav__home {
+                .not_selected {
+                    display: none;
+                }
+            }
+
+            .contact_home {
+                .not_selected {
+                    font-family: "Inter", sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: var(--color-white);
+                    text-decoration: none; 
+                }
+            }
+        }
+    }
 `;

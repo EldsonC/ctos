@@ -23,7 +23,7 @@ export function Home() {
                                     <Arrow color="#000000"/>
                                 </button>
                             </div>
-                            <div>
+                            <div className="man">
                                 <Man/>
                             </div>
                         </div>
